@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0  ;
+}
+/***********  Header css **************/
+#header{
+    height: 50px;
+    width: 100%;    
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);       
+    margin-bottom: 10px;   
+}
+#StudentInfo{
+    text-align: center;
+    width: 500px;
+    float: left;
+    padding-left: 500px;
+}
+#logout{
+    float: right;
+    margin-right: 100px;
+    cursor: pointer;
+}
+/*******************Student Credential *********************/
+#StudentMainBoxmain{
+    min-height:calc(100% - 70px);
+    width: 100%;
+    background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+#StudentMainBox{
+    height: 100%;
+    width: 100%;
+}
+#StudentinfoBox{
+    height: 880px;
+    width: 100%;
+    padding-top: 10px;
+    }
+    .button{
+        cursor: pointer;
+    }
+#button{
+    height: 30px;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+margin-left: 40%;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+cursor: pointer;
+}
+.inputs{
+    font-size: 16px;
+    width: 100px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+table{
+    align-items: center;
+    margin-left: 15%;
+}
+td {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    width: 150px;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize; 
+  }

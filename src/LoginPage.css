@@ -1,0 +1,65 @@
+html,body{
+    height: 100%;
+    overflow: auto;
+}
+input {
+    margin: 10px;
+    word-spacing: 5px;
+}
+#particles-js{
+    background-image: url('me.jpg');
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    }
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.my-form{
+    height: 310px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0 ,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0 ,0,1);
+    color: #fff;
+    padding-top: 60px;
+}
+    
+.my-form .form-group{
+    align-content: center;
+}
+.my-form input{
+    
+width: 200px;
+margin-top: 20px;
+background: transparent;
+outline: none;
+padding: 10px;
+font-size: 13px;
+box-shadow: 0 0 4px #fff;
+color:azure;
+}
+.my-form input[type="submit"]{
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #fff;
+    cursor: pointer;
+    color: #fff
+}
+
+
+.newdiv:hover{
+    background-color: black;
+}
+#root{
+    height: 100%;
+    width: 100%;
+}
